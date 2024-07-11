@@ -1,2 +1,1 @@
-# cuuthang
-oke
+Ncthangw got here 
