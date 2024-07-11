@@ -1,0 +1,153 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Thay đổi kích thước chữ của tiêu đề chính */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-size: 1.1em; /* Thay đổi kích thước chữ của các liên kết trong menu */
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Container style */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section style */
+section {
+    margin-bottom: 40px;
+}
+
+/* About section style */
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em; /* Thay đổi kích thước chữ của tiêu đề phần Giới Thiệu */
+}
+
+#about .profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about p {
+    font-size: 1.2em; /* Thay đổi kích thước chữ của đoạn văn trong phần Giới Thiệu */
+}
+
+/* Project section style */
+.project {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 1.8em; /* Thay đổi kích thước chữ của tiêu đề dự án */
+}
+
+.project p {
+    font-size: 1.1em; /* Thay đổi kích thước chữ của mô tả dự án */
+}
+
+/* Contact section style */
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em; /* Thay đổi kích thước chữ của tiêu đề phần Liên Hệ */
+}
+
+#contact p {
+    font-size: 1.2em; /* Thay đổi kích thước chữ của đoạn văn trong phần Liên Hệ */
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #000;
+}
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em; /* Thay đổi kích thước chữ của đoạn văn trong footer */
+}
+
+/* Image style */
+img {
+    max-width: 100%;
+    height: auto;
+}
